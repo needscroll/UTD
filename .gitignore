@@ -1,0 +1,13 @@
+.metadata/*
+.recommenders/*
+*.pem
+.ppk
+.idea/*
+*.iml
+*.class
+/bin*
+*.docx
+*.pptx
+*.zip
+*.epub
+*.pdf

@@ -1,0 +1,586 @@
+the program has started from the launcher
+time interval between interrupts?: 
+Enter program file: 
+child process has started
+This is the argument: d.txt
+this is the program:
+19
+9
+1
+1
+10
+9
+2
+27
+19
+9
+1
+1
+10
+9
+2
+28
+19
+9
+1
+1
+10
+9
+2
+29
+2
+1000
+50
+.1000
+30
+.1500
+19
+9
+1
+1
+10
+9
+2
+27
+19
+9
+1
+1
+10
+9
+2
+28
+19
+9
+1
+1
+10
+9
+2
+30
+nfe on: 27 processing string: <.1000>
+nfe on: 1001 processing string: <.1500>
+memory is now fully initialized and started
+TIMER INTERRUPT CPU HAS ENTERED KERNAL MODE
+child recieved:<w:999:0> child is on rotation: 0 write request detected, writing address 999 with 0
+child recieved:<w:998:0> child is on rotation: 1 write request detected, writing address 998 with 0
+child recieved:<w:997:0> child is on rotation: 2 write request detected, writing address 997 with 0
+child recieved:<w:996:0> child is on rotation: 3 write request detected, writing address 996 with 0
+child recieved:<w:995:0> child is on rotation: 4 write request detected, writing address 995 with 0
+cpu is on step: 0 ================================
+===information in the registers===
+PC: 1000
+SP: 994
+IR: 0
+AC: 0
+X: 0
+Y: 0
+==================================
+PC is: 1000 fetching instruction from memory
+child recieved:<r1000> child is on rotation: 5 memory request detected, returning:<30>
+IR now contains: 30 running instruction with opcode: 30
+child recieved:<r995> child is on rotation: 6 memory request detected, returning:<0>
+child recieved:<r996> child is on rotation: 7 memory request detected, returning:<0>
+child recieved:<r997> child is on rotation: 8 memory request detected, returning:<0>
+child recieved:<r998> child is on rotation: 9 memory request detected, returning:<0>
+child recieved:<r999> child is on rotation: 10 memory request detected, returning:<0>
+==================================================
+
+cpu is on step: 1 ================================
+===information in the registers===
+PC: 0
+SP: 999
+IR: 0
+AC: 0
+X: 0
+Y: 0
+==================================
+PC is: 0 fetching instruction from memory
+child recieved:<r0> child is on rotation: 11 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 2 ================================
+===information in the registers===
+PC: 1
+SP: 999
+IR: 19
+AC: 999
+X: 0
+Y: 0
+==================================
+PC is: 1 fetching instruction from memory
+child recieved:<r1> child is on rotation: 12 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r2> child is on rotation: 13 memory request detected, returning:<1>
+put port called outputting 999
+==================================================
+
+cpu is on step: 3 ================================
+===information in the registers===
+PC: 3
+SP: 999
+IR: 1
+AC: 999
+X: 0
+Y: 0
+==================================
+PC is: 3 fetching instruction from memory
+child recieved:<r3> child is on rotation: 14 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r4> child is on rotation: 15 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 4 ================================
+===information in the registers===
+PC: 5
+SP: 999
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 5 fetching instruction from memory
+child recieved:<r5> child is on rotation: 16 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r6> child is on rotation: 17 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 5 ================================
+===information in the registers===
+PC: 7
+SP: 999
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 7 fetching instruction from memory
+child recieved:<r7> child is on rotation: 18 memory request detected, returning:<27>
+IR now contains: 27 running instruction with opcode: 27
+child recieved:<w:999:10> child is on rotation: 19 write request detected, writing address 999 with 10
+==================================================
+
+cpu is on step: 6 ================================
+===information in the registers===
+PC: 8
+SP: 998
+IR: 27
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 8 fetching instruction from memory
+child recieved:<r8> child is on rotation: 20 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 7 ================================
+===information in the registers===
+PC: 9
+SP: 998
+IR: 19
+AC: 998
+X: 0
+Y: 0
+==================================
+PC is: 9 fetching instruction from memory
+child recieved:<r9> child is on rotation: 21 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r10> child is on rotation: 22 memory request detected, returning:<1>
+put port called outputting 998
+==================================================
+
+cpu is on step: 8 ================================
+===information in the registers===
+PC: 11
+SP: 998
+IR: 1
+AC: 998
+X: 0
+Y: 0
+==================================
+PC is: 11 fetching instruction from memory
+child recieved:<r11> child is on rotation: 23 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r12> child is on rotation: 24 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 9 ================================
+===information in the registers===
+PC: 13
+SP: 998
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 13 fetching instruction from memory
+child recieved:<r13> child is on rotation: 25 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r14> child is on rotation: 26 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 10 ================================
+===information in the registers===
+PC: 15
+SP: 998
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 15 fetching instruction from memory
+child recieved:<r15> child is on rotation: 27 memory request detected, returning:<28>
+IR now contains: 28 running instruction with opcode: 28
+child recieved:<r999> child is on rotation: 28 memory request detected, returning:<10>
+==================================================
+
+cpu is on step: 11 ================================
+===information in the registers===
+PC: 16
+SP: 999
+IR: 28
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 16 fetching instruction from memory
+child recieved:<r16> child is on rotation: 29 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 12 ================================
+===information in the registers===
+PC: 17
+SP: 999
+IR: 19
+AC: 999
+X: 0
+Y: 0
+==================================
+PC is: 17 fetching instruction from memory
+child recieved:<r17> child is on rotation: 30 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r18> child is on rotation: 31 memory request detected, returning:<1>
+put port called outputting 999
+==================================================
+
+cpu is on step: 13 ================================
+===information in the registers===
+PC: 19
+SP: 999
+IR: 1
+AC: 999
+X: 0
+Y: 0
+==================================
+PC is: 19 fetching instruction from memory
+child recieved:<r19> child is on rotation: 32 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r20> child is on rotation: 33 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 14 ================================
+===information in the registers===
+PC: 21
+SP: 999
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 21 fetching instruction from memory
+child recieved:<r21> child is on rotation: 34 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r22> child is on rotation: 35 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 15 ================================
+===information in the registers===
+PC: 23
+SP: 999
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 23 fetching instruction from memory
+child recieved:<r23> child is on rotation: 36 memory request detected, returning:<29>
+IR now contains: 29 running instruction with opcode: 29
+SYSTEM CALL CPU HAS ENTERED KERNAL MODE
+child recieved:<w:999:24> child is on rotation: 37 write request detected, writing address 999 with 24
+child recieved:<w:998:29> child is on rotation: 38 write request detected, writing address 998 with 29
+child recieved:<w:997:10> child is on rotation: 39 write request detected, writing address 997 with 10
+child recieved:<w:996:0> child is on rotation: 40 write request detected, writing address 996 with 0
+child recieved:<w:995:0> child is on rotation: 41 write request detected, writing address 995 with 0
+==================================================
+
+cpu is on step: 16 ================================
+===information in the registers===
+PC: 1500
+SP: 994
+IR: 29
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1500 fetching instruction from memory
+child recieved:<r1500> child is on rotation: 42 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 17 ================================
+===information in the registers===
+PC: 1501
+SP: 994
+IR: 19
+AC: 994
+X: 0
+Y: 0
+==================================
+PC is: 1501 fetching instruction from memory
+child recieved:<r1501> child is on rotation: 43 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1502> child is on rotation: 44 memory request detected, returning:<1>
+put port called outputting 994
+==================================================
+
+cpu is on step: 18 ================================
+===information in the registers===
+PC: 1503
+SP: 994
+IR: 1
+AC: 994
+X: 0
+Y: 0
+==================================
+PC is: 1503 fetching instruction from memory
+child recieved:<r1503> child is on rotation: 45 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r1504> child is on rotation: 46 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 19 ================================
+===information in the registers===
+PC: 1505
+SP: 994
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1505 fetching instruction from memory
+child recieved:<r1505> child is on rotation: 47 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1506> child is on rotation: 48 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 20 ================================
+===information in the registers===
+PC: 1507
+SP: 994
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1507 fetching instruction from memory
+child recieved:<r1507> child is on rotation: 49 memory request detected, returning:<27>
+IR now contains: 27 running instruction with opcode: 27
+child recieved:<w:994:10> child is on rotation: 50 write request detected, writing address 994 with 10
+==================================================
+
+cpu is on step: 21 ================================
+===information in the registers===
+PC: 1508
+SP: 993
+IR: 27
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1508 fetching instruction from memory
+child recieved:<r1508> child is on rotation: 51 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 22 ================================
+===information in the registers===
+PC: 1509
+SP: 993
+IR: 19
+AC: 993
+X: 0
+Y: 0
+==================================
+PC is: 1509 fetching instruction from memory
+child recieved:<r1509> child is on rotation: 52 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1510> child is on rotation: 53 memory request detected, returning:<1>
+put port called outputting 993
+==================================================
+
+cpu is on step: 23 ================================
+===information in the registers===
+PC: 1511
+SP: 993
+IR: 1
+AC: 993
+X: 0
+Y: 0
+==================================
+PC is: 1511 fetching instruction from memory
+child recieved:<r1511> child is on rotation: 54 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r1512> child is on rotation: 55 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 24 ================================
+===information in the registers===
+PC: 1513
+SP: 993
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1513 fetching instruction from memory
+child recieved:<r1513> child is on rotation: 56 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1514> child is on rotation: 57 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 25 ================================
+===information in the registers===
+PC: 1515
+SP: 993
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1515 fetching instruction from memory
+child recieved:<r1515> child is on rotation: 58 memory request detected, returning:<28>
+IR now contains: 28 running instruction with opcode: 28
+child recieved:<r994> child is on rotation: 59 memory request detected, returning:<10>
+==================================================
+
+cpu is on step: 26 ================================
+===information in the registers===
+PC: 1516
+SP: 994
+IR: 28
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1516 fetching instruction from memory
+child recieved:<r1516> child is on rotation: 60 memory request detected, returning:<19>
+IR now contains: 19 running instruction with opcode: 19
+==================================================
+
+cpu is on step: 27 ================================
+===information in the registers===
+PC: 1517
+SP: 994
+IR: 19
+AC: 994
+X: 0
+Y: 0
+==================================
+PC is: 1517 fetching instruction from memory
+child recieved:<r1517> child is on rotation: 61 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1518> child is on rotation: 62 memory request detected, returning:<1>
+put port called outputting 994
+==================================================
+
+cpu is on step: 28 ================================
+===information in the registers===
+PC: 1519
+SP: 994
+IR: 1
+AC: 994
+X: 0
+Y: 0
+==================================
+PC is: 1519 fetching instruction from memory
+child recieved:<r1519> child is on rotation: 63 memory request detected, returning:<1>
+IR now contains: 1 running instruction with opcode: 1
+child recieved:<r1520> child is on rotation: 64 memory request detected, returning:<10>
+10 is now loaded into the AC
+==================================================
+
+cpu is on step: 29 ================================
+===information in the registers===
+PC: 1521
+SP: 994
+IR: 10
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1521 fetching instruction from memory
+child recieved:<r1521> child is on rotation: 65 memory request detected, returning:<9>
+IR now contains: 9 running instruction with opcode: 9
+child recieved:<r1522> child is on rotation: 66 memory request detected, returning:<2>
+put port called outputting 10
+==================================================
+
+cpu is on step: 30 ================================
+===information in the registers===
+PC: 1523
+SP: 994
+IR: 2
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 1523 fetching instruction from memory
+child recieved:<r1523> child is on rotation: 67 memory request detected, returning:<30>
+IR now contains: 30 running instruction with opcode: 30
+child recieved:<r995> child is on rotation: 68 memory request detected, returning:<0>
+child recieved:<r996> child is on rotation: 69 memory request detected, returning:<0>
+child recieved:<r997> child is on rotation: 70 memory request detected, returning:<10>
+child recieved:<r998> child is on rotation: 71 memory request detected, returning:<29>
+child recieved:<r999> child is on rotation: 72 memory request detected, returning:<24>
+==================================================
+
+cpu is on step: 31 ================================
+===information in the registers===
+PC: 24
+SP: 999
+IR: 29
+AC: 10
+X: 0
+Y: 0
+==================================
+PC is: 24 fetching instruction from memory
+child recieved:<r24> child is on rotation: 73 memory request detected, returning:<2>
+IR now contains: 2 running instruction with opcode: 2
+child recieved:<r25> child is on rotation: 74 memory request detected, returning:<1000>
+User tried to acess system memory. program will now exit
+==================================================
+
+program done
+output of program is: 
+999
+998
+999
+994
+993
+994
+
+Process exited: 1
+program has stopped

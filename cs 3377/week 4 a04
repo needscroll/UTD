@@ -1,0 +1,56 @@
+Script started on Fri 09 Feb 2018 10:04:13 PM PST
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cd /home/james/tests
+]0;james@ubuntu: ~/tests[01;32mjames@ubuntu[00m:[01;34m~/tests[00m$ cd
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cd tests
+]0;james@ubuntu: ~/tests[01;32mjames@ubuntu[00m:[01;34m~/tests[00m$ cd
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ echo 'Hello A"[K' > /home/james/misc/fileA.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ echo '' > /home/james/misc/fileB.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cp /home/james/misc/fileA /home/james/misc/filec.t[K[K[KCt[K.txt. /home/james/misc/fileC.txtt /home/james/misc/fileC.txtx /home/james/misc/fileC.txtt /home/james/misc/fileC.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cp /home/james/misc/fileA.txt /home/james/misc/fileC.txt[C[C[1@=[1@=[1P[1P[1P[1P[1@m[1@v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txtD.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ tar -zcvf misc.tar misc
+misc/
+misc/fileD.txt
+misc/fileC.txt
+misc/fileA.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ gzip misc.tar
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ mv misc.tar.gz tests
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ mv[K[Kgunzip misc.[K[K[K[K[K/home/james/tests/misc.tar.gz[K[Kgz
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ tar -xvf /home.[K/james/tests/misc.tar
+misc/
+misc/fileD.txt
+misc/fileC.txt
+misc/fileA.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cd /home/james/tests/misc
+]0;james@ubuntu: ~/tests/misc[01;32mjames@ubuntu[00m:[01;34m~/tests/misc[00m$ ls
+fileA.txt  fileC.txt  fileD.txt
+]0;james@ubuntu: ~/tests/misc[01;32mjames@ubuntu[00m:[01;34m~/tests/misc[00m$ cd
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ pwd
+/home/james
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ ln /home/james/tests/.[Kmisc/fileA.[K /home/james/tests/misc/fileB
+ln: failed to access '/home/james/tests/misc/fileA': No such file or directory
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ ln /home/james/tests/misc/fileA /home/james/tests/misc/fileB. /home/james/tests/misc/fileBt /home/james/tests/misc/fileBx /home/james/tests/misc/fileBt /home/james/tests/misc/fileB [A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ ln /home/james/tests/misc/fileA.txt /home/james/tests/misc/fileB..txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P /home/james/tests/misc/fileB
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/james/tests/misc/fileB..txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/james/tests/misc/fileA.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C- /home/james/tests/misc/fileA.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[Cs /home/james/tests/misc/fileA.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C
+
+ln: failed to create symbolic link '/home/james/tests/misc/fileB.txt': File exists
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ ln -s /home/james/tests/misc/fileA.txt /home/james/tests/misc/filleB.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/james/tests/misc/file[1PB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CR.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/james/tests/misc/file[1PB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/james/tests/misc/file[1PB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CE.txt /home/james/tests/misc/fileB.txt[A]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cln -s /home/james/tests/misc/fileE.txt /home/james/tests/misc/filleB.txt[1P.txt[C[CC.txt
+ln: failed to create symbolic link '/home/james/tests/misc/fileC.txt': File exists
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ ls -id /home/james/tests/misc
+929629 [0m[01;34m/home/james/tests/misc[0m
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ chmod 777 /home/james/tests/misc/FileD.txt
+chmod: cannot access '/home/james/tests/misc/FileD.txt': No such file or directory
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ cdmod u [K=rwx /tests/misc
+No command 'cdmod' found, did you mean:
+ Command 'chmod' from package 'coreutils' (main)
+cdmod: command not found
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ find / - *zip* 2>dev/null | grep "usr/bin/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdiff /home/h[Kjames/tests/misc/fileA.txt /home/james/tests/misc/fil eV.[K[KC.txt
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ grep[[K "[K"hel[K[K[KHello" /home/james/tests/misc/fileA.txt
+[01;31m[KHello[m[K A
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ headgrep "Hello" /home/james/tests/misc/fileA.txt[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /home/james/tests/misc/fileA.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hello A
+]0;james@ubuntu: ~[01;32mjames@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Fri 09 Feb 2018 10:18:09 PM PST
