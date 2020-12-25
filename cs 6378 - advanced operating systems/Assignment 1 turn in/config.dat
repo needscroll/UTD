@@ -1,0 +1,10 @@
+3
+
+0 dc01 1234
+1 dc02 1235
+2 dc03 1236
+
+1 #space delimited list of neighbors for node 0
+0 2 #space delimited list of neighbors for node 1
+1 #space delimited list of neighbors for node 2
+

@@ -1,0 +1,7 @@
+the algorithm works as such
+in each round, all nodes broadcast a message to their neighbors and then wait to recieve messages
+the node will wait until it has recieved a message back from all it's neighbors before advancing to the next round
+in the next round, the node repeats the process by broadcasting a message and then waiting
+this happens for n rounds
+Each node logs every message it gets
+at the end of n rounds, the node will go through the message log to compute the k hop neighbors and the ecentricity
